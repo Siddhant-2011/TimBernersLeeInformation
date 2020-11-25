@@ -1,58 +1,61 @@
+#rubeydudey {
+    border-radius: 60px;
+    width: 300px;
+    height: 200px;
+    margin-right: 280px;
+}
+
 body {
     text-align: center;
-}
-
-#tim {
-    width: 175px;
-    border-radius: 50%;
-    margin-top: 200px;
 
 }
 
-#welcome {
-    width: 100%;
-    height: 650px;
-    background: linear-gradient(#86b3fc 50%, #1c51ff 100%);
-    color: white;
-    font-family: fantasy;
+#rubiks {
+    font-family: monospace;
+    margin-right: 280px;
+
 }
 
-.line {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: auto;
-}
-
-p {
-    font-family: fantasy;
-    font-size: 20px;
-}
-
-h1 {
-    font-family: fantasy;
-    font-size: 40px;
+#box {
+    background: linear-gradient(#7dafff 0%, #4283fc 100%);
+    height: 300px;
 }
 
 .options {
     list-style: none;
-    font-family: 'Syne Tactile', cursive;
+    font-family: 'Syne Tactile';
     top: 10px;
     right: 30px;
     cursor: pointer;
     position: absolute;
-    
 }
-.menu{
+
+.menu {
     float: left;
-    font-size: 30px;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
     padding-top: 5px;
-    padding-left: 9px;
     padding-bottom: 5px;
-    padding-right: 9px;
     color: white;
 }
-.menu:hover{
-    background-color:cornflowerblue;
+
+.menu:hover {
+    background-color: cornflowerblue;
+  text-decoration: underline;
+  text-shadow: 2px 2px gainsboro;
+  font-size: 25px;
+ 
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+.picture{
+  height: 400px;
+  width: 400px
+}
+#map{
+  width: 100%;
 }
 
